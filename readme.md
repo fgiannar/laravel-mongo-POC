@@ -1,4 +1,4 @@
-# Mastori API
+# laravel-mongo Proof Of Concept
 
 ## Installation
 
