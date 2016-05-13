@@ -4,10 +4,10 @@
 
 ### Server Requirements
 
-See (here)[https://laravel.com/docs/5.2]
+See [here](https://laravel.com/docs/5.2)
 
 A working installation of Apache 2.4 or higher with PHP 5.6 or higher.
-The MongoDB PHP driver installed. You can find installation instructions (here)[http://php.net/manual/en/mongodb.installation.php]
+The MongoDB PHP driver installed. You can find installation instructions [here](http://php.net/manual/en/mongodb.installation.php)
 
 __WARNING__: The old mongo PHP driver is not supported anymore in versions >= 3.0.
 
