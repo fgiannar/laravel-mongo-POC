@@ -24,14 +24,14 @@ class UsersCollectionSeeder extends Seeder {
         DB::collection('users')->delete();
 
         User::create([
-        	'name' => 'user',
-        	'email' => 'user@foobar.com',
+        	'name' => 'John Doe',
+        	'email' => 'john@foobar.com',
         	'password' => bcrypt('password')
       	]);
 
         User::create([
-            'name' => 'mastorr',
-            'email' => 'mastorr@foobar.com',
+            'name' => 'Jane Doe',
+            'email' => 'jane@foobar.com',
             'password' => bcrypt('password')
         ]);
     }

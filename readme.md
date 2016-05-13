@@ -35,7 +35,7 @@ Run on a MongoDB shell:
         }
     )
 
-__Install dependencies, configure permissions, and configure databse__
+__Install dependencies, configure permissions, and configure database__
 
 To avoid any issues with the `artisan` cli tool, the `.env` mongodb host should be
 set to `127.0.0.1` instead of 'localhost'. If the mongodb is installed on a separate
