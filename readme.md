@@ -2,10 +2,16 @@
 
 ## Installation
 
+### Server Requirements
+
+See (here)[https://laravel.com/docs/5.2]
+
 A working installation of Apache 2.4 or higher with PHP 5.6 or higher.
 The MongoDB PHP driver installed. You can find installation instructions (here)[http://php.net/manual/en/mongodb.installation.php]
 
 __WARNING__: The old mongo PHP driver is not supported anymore in versions >= 3.0.
+
+### Installing the project
 
 __Install Composer__ if you don't have it installed already.
 
@@ -15,6 +21,19 @@ __Install Composer__ if you don't have it installed already.
 __Clone to a directory accessible by the web server. eg. `/var/www`
 
     git clone https://github.com/fgiannar/laravel-mongo-POC.git
+
+__Set up database__
+
+Run on a MongoDB shell:
+
+    use mongovel
+    db.createUser(
+        {
+          user: "mongovel",
+          pwd: "mongovel",
+          roles: [ "readWrite", "dbAdmin" ]
+        }
+    )
 
 __Install dependencies, configure permissions, and configure databse__
 
