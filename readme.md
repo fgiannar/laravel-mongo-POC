@@ -18,7 +18,7 @@ __Install Composer__ if you don't have it installed already.
     curl -sS https://getcomposer.org/installer | php
     mv composer.phar /usr/local/bin/composer
 
-__Clone to a directory accessible by the web server. eg. `/var/www`
+__Clone__ to a directory accessible by the web server. eg. `/var/www`
 
     git clone https://github.com/fgiannar/laravel-mongo-POC.git
 
@@ -37,7 +37,7 @@ Run on a MongoDB shell:
 
 __Install dependencies, configure permissions, and configure databse__
 
-To avoid any issues with the `artisan` cli tool, the `.env` mongodd host should be
+To avoid any issues with the `artisan` cli tool, the `.env` mongodb host should be
 set to `127.0.0.1` instead of 'localhost'. If the mongodb is installed on a separate
 server this is not required.
 
