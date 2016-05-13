@@ -12,16 +12,16 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->call(UsersTableSeeder::class);
+        $this->call(UsersCollectionSeeder::class);
     }
 }
 
 
-class UsersTableSeeder extends Seeder {
+class UsersCollectionSeeder extends Seeder {
 
     public function run()
     {
-        DB::table('users')->delete();
+        DB::collection('users')->delete();
 
         User::create([
         	'name' => 'user',
