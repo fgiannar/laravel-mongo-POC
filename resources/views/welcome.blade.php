@@ -40,7 +40,7 @@
             <div class="content">
                 <h2>This is a completely dummy page. If you see Jane Doe below though, you did everything right!</h2>
 
-                <h3>Tourists:</h3>
+                <h3>Seeded Users:</h3>
                 @foreach (App\User::all() as $user)
                     <p>ID: {{ $user->_id }} </p>
                     <p>Name: {{ $user->name }}</p>
